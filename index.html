@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Emzee Beats | Official Page</title>
-  <link rel="stylesheet" href="style/style.css" />
+  <title>Emzee Beats | Official Site</title>
+  <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet" />
-  <link rel="icon" href="favicon.ico" />
 </head>
 <body>
 
@@ -16,23 +15,56 @@
     <a href="#music" class="cta-button">🎧 Listen Now</a>
   </header>
 
+  <!-- 🔊 Featured Music -->
   <section id="music" class="music-section">
     <h2>🔥 Featured Tracks</h2>
     <div class="track">
       <p>🚀 Cosmic Trap</p>
-      <audio controls src="your-track-1.mp3"></audio>
+      <audio controls src="cosmic-trap.mp3"></audio>
     </div>
     <div class="track">
       <p>🌊 Sacred Waves</p>
-      <audio controls src="your-track-2.mp3"></audio>
+      <audio controls src="sacred-waves.mp3"></audio>
     </div>
   </section>
 
-  <section class="about">
-    <h2>⚡ About Emzee</h2>
-    <p>Sound alchemist. Crafting multidimensional trap and cosmic vibes. If it hits the soul and knocks in the chest, it’s Emzee.</p>
+  <!-- 💽 Beat Store -->
+  <section id="store" class="store-section">
+    <h2>🛒 Beats For Sale</h2>
+    <div class="product">
+      <img src="cover-1.jpg" alt="Track Cover" />
+      <h3>Cosmic Trap</h3>
+      <audio controls src="cosmic-trap.mp3"></audio>
+      <a href="https://beatstars.com/yourpage" class="buy-btn" target="_blank">Buy on BeatStars</a>
+    </div>
+
+    <div class="product">
+      <img src="cover-2.jpg" alt="Track Cover" />
+      <h3>Dark Frequency</h3>
+      <audio controls src="dark-frequency.mp3"></audio>
+      <a href="https://beatstars.com/yourpage" class="buy-btn" target="_blank">Buy on BeatStars</a>
+    </div>
   </section>
 
+  <!-- 🎥 Video Section -->
+  <section id="videos" class="video-section">
+    <h2>🎬 Beat Videos & Visuals</h2>
+
+    <!-- YouTube embed -->
+    <div class="video-container">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/yourvideoid" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- Local video -->
+    <div class="video-container">
+      <video controls width="100%" poster="video-poster.jpg">
+        <source src="your-beat-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <!-- 📲 Socials -->
   <section class="socials">
     <h2>📲 Connect</h2>
     <div class="social-links">
@@ -46,6 +78,7 @@
     <p>&copy; 2025 Emzee Beats. All rights reserved.</p>
   </footer>
 
-  <script src="script/script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
+

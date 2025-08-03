@@ -55,35 +55,66 @@ section {
   background-color: #111;
 }
 
-.music-section h2,
-.about h2,
-.socials h2 {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-  color: #e91e63;
+.track,
+.product {
+  margin: 2rem auto;
+  max-width: 400px;
+  background: #1a1a1a;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 0 10px #e91e63;
 }
 
-.track {
-  margin-bottom: 2rem;
-}
-
-.track p {
+.track p,
+.product h3 {
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
 }
 
-audio {
+audio,
+video {
   width: 100%;
-  max-width: 400px;
-  border: 1px solid #e91e63;
   border-radius: 8px;
 }
 
-.about p {
-  max-width: 600px;
-  margin: 0 auto;
-  font-size: 1rem;
-  color: #ccc;
+.product img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+}
+
+.buy-btn {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.5rem 1rem;
+  background: #e91e63;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  transition: 0.3s ease;
+}
+
+.buy-btn:hover {
+  background-color: #ff4081;
+}
+
+.video-section h2 {
+  color: #e91e63;
+  margin-bottom: 1.5rem;
+}
+
+.video-container {
+  margin-bottom: 2rem;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.socials h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #e91e63;
 }
 
 .social-links {
@@ -114,11 +145,4 @@ footer {
   text-align: center;
   font-size: 0.85rem;
   color: #777;
-}
-footer p {
-  margin: 0;
-}
-footer a {
-  color: #e91e63;
-  text-decoration: none;
 }
