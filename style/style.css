@@ -2,72 +2,121 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
 }
 
 body {
   background-color: #0a0a0a;
   color: #fff;
+  font-family: 'Orbitron', sans-serif;
   line-height: 1.6;
 }
 
 header {
   text-align: center;
   padding: 4rem 2rem;
-  background: linear-gradient(to right, #111, #222);
+  background: radial-gradient(circle, #111, #000);
 }
 
 header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+  font-size: 3rem;
+  color: #e91e63;
+  text-shadow: 0 0 10px #e91e63;
 }
 
 header p {
   font-size: 1.2rem;
-  color: #ccc;
+  color: #aaa;
+  margin-top: 0.5rem;
 }
 
 .cta-button {
   display: inline-block;
-  margin-top: 1rem;
-  padding: 0.75rem 1.5rem;
+  margin-top: 1.5rem;
+  padding: 0.75rem 2rem;
   background: #e91e63;
-  color: white;
+  color: #fff;
   text-decoration: none;
   border-radius: 30px;
-  transition: 0.3s;
+  font-size: 1rem;
+  transition: all 0.3s ease;
 }
 
 .cta-button:hover {
   background: #ff4081;
+  transform: scale(1.05);
 }
 
 section {
-  padding: 2rem;
+  padding: 3rem 2rem;
   text-align: center;
 }
 
+.music-section {
+  background-color: #111;
+}
+
+.music-section h2,
+.about h2,
+.socials h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #e91e63;
+}
+
 .track {
-  margin: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+.track p {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
 }
 
 audio {
   width: 100%;
   max-width: 400px;
+  border: 1px solid #e91e63;
+  border-radius: 8px;
 }
 
-.socials a {
-  color: #e91e63;
+.about p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.social-links a {
+  color: #fff;
+  background-color: #e91e63;
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
   text-decoration: none;
-  margin: 0 0.5rem;
+  font-size: 0.95rem;
+  transition: background 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #ff4081;
 }
 
 footer {
+  background-color: #000;
   padding: 1rem;
   text-align: center;
-  font-size: 0.9rem;
-  background-color: #111;
-  color: #aaa;
+  font-size: 0.85rem;
+  color: #777;
+}
+footer p {
+  margin: 0;
 }
 footer a {
   color: #e91e63;
